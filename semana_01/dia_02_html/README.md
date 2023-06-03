@@ -34,3 +34,9 @@ https://lenguajehtml.com/html/multimedia/etiqueta-html-img/
 https://www.svgrepo.com/
 
 https://developer.mozilla.org/es/docs/Web/HTML
+
+https://github.com/victorvzn/bootcamp-frontend-g14
+
+
+
+## Esta es una actualización del Readme semana 02
