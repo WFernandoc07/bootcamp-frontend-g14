@@ -7,8 +7,6 @@
 * git log --oneline __ver el historial pero reducido__
 * git log --oneline --graph
 * git show <hash>
-* 
-
 * git push
 
 --------------
