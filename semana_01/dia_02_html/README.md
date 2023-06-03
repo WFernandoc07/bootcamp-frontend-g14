@@ -39,4 +39,4 @@ https://github.com/victorvzn/bootcamp-frontend-g14
 
 
 
-## Esta es una actualización del Readme semana 02
+## Esta es una actualización del Readme semana 01
