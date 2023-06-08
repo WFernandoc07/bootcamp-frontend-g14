@@ -39,4 +39,5 @@ https://github.com/victorvzn/bootcamp-frontend-g14
 
 
 
-## Esta es una actualización del Readme semana 01
+## Esta es una actualización del Readme semana 01 día 02
+### He creado la rama jitcajamarca
