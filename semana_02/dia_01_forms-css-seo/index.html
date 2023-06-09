@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+</head>
+
+<body>
+  <main>
+    <h1>Formularios + inputs + validaciones</h1>
+    <form>
+      <h2>Inputs</h2>
+      <label>Input tipo texto
+        <input type="text" placeholder="Ingrese algún texto" />
+      </label>
+    </form>
+    <label>Input(Desactivados)
+      <input type="text" placeholder="Ingrese algún texto" disabled />
+    </label>
+    <label>Input(Solo lectura)
+      <input type="text" placeholder="Ingrese solo lectura" readonly value="solo lectura" />
+    </label>
+    <label>Input(Number)
+      <input type="number" placeholder="Edad Ej. 18" />
+    </label>
+    <label>Input(Tipo email)
+      <input type="email" placeholder="Correo Ej. ejemplo@mail.com"/>
+    </label>
+    <label>Input tipo Range(Edad)
+      <input type="range"/>
+    </label>
+    <label>Input( Tipo tel)
+      <input type="tel" placeholder="(51) 999999999" disabled />
+    </label>
+    <label>Input(URLs)
+      <input type="url" placeholder="Sitio web" disabled />
+    </label>
+    <label>Input(Password)
+      <input type="password" placeholder="Password" />
+    </label>
+    <label>Input(Color)
+      <input type="color"/>
+    </label>
+    <label>Input(Search)
+      <input type="text" placeholder="Ingrese algún texto" disabled />
+    </label>
+    </form>
+  </hr>
+  <form>
+    <h2>validaciones</h2>
+    <label>
+      Nombre
+      <input type="text" name="nombre" minlength="3" maxlength="15" required>
+    </label>
+    <label>
+      Email
+      <input type="email" name="email" required>
+    </label>
+    <label>
+      Edad
+      <input type="number" name="edad" required min="1" max="99">
+    </label>
+    <label>
+      Teléfono
+      <input type="tel" name="email" required pattern="\+[0-9]{2}[0-9]{9}" placeholder="+51 999999999">
+      <p>+51 999999999</p>
+    </label>
+    <label>
+      Comidas
+      <select required name="comidas">
+        <option>Francesa</option>
+        <option>Italiana</option>
+        <option>Japonesa</option>
+        <option>Peruana</option>
+        <option>Tailandesa</option>
+      </select>
+    </label>
+
+    <input type="submit" value="Guardar"/>
+  </form>
+  </main>
+</body>
+
+</html>
