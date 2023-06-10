@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+  <style>
+    main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <form>
+      <hgroup>
+        <h1 id="titulounico">Login</h1>
+        <h2>Ingresa la información con la que te registraste</h2>
+        <label>
+          Email
+          <input type="email" placeholder="user@mail.com" required>
+        </label>
+        <label>
+          Password
+          <input type="password" placeholder="ingresa password" required minlength="6"/>
+        </label>
+        <input type="submit" value="ingresar">
+        <p class="miclase">¿No recuerdas tu contraseña? <a href="recuperacuenta.html">Recuperala aquí</a></p>
+        <p class="miclase">¿Aún no tienes cuenta? <a href="registrar.html">Registrate aquí</a></p>
+      </hgroup>
+    </form>
+  </main>
+  <style>
+    #titulounico{
+      color: red;
+    }
+    .miclase{
+      color: orange;
+    }
+  </style>
+</body>
+</html>
