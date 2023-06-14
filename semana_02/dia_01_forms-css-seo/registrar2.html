@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Registrar2</title>
+</head>
+
+<body>
+  <main class="container">
+    <form>
+      <img class="photo" src="./img/avatar-g44bb5f435_1280.png" alt="profile avatar">
+      <hgroup>
+        <h1>Crear una cuenta</h1>
+        <h2>Ingresa la siguiente información para registrarte</h2>
+      </hgroup>
+      <div class="contenedor">
+        <label>
+          Nombres
+          <input type="text" placeholder="Nombres" required>
+        </label>
+        <label>
+          Apellidos
+          <input type="text" placeholder="Apellidos" required>
+        </label>
+      </div>
+      <label>
+        Edad
+        <input type="number" placeholder="Ej. 19" required>
+      </label>
+      <label>
+        Fecha de Nacieminto
+        <input type="date" placeholder="mm/dd/yyyy" required>
+      </label>
+      <select name="select">
+        <option value="selecciona">Selecciona tu género</option>
+        <option value="masculino">Masculino</option>
+        <option value="femenino">Femenino</option>
+        <option value="otro">Otro</option>
+      </select>
+      <label>
+        Email
+        <input type="email" placeholder="user@mail.com" required>
+      </label>
+      <label>
+        Dirección
+        <input type="text" placeholder="Dirección" required>
+        <input type="text" placeholder="Dirección línea 2" required>
+      </label>
+      <label>
+        Teléfono
+        <input type="phone" placeholder="Teléfono" required>
+      </label>
+      <label>
+        Código Postal
+        <input type="number" placeholder="Código postal" required>
+      </label>
+      <label>
+        Ciudad
+        <input type="text" placeholder="Ciudad" required>
+      </label>
+      <label>
+        Subir firma
+          <input type="file" value="Choose File">
+      </label>
+      <label>
+        <input type="checkbox" value="terms and condition" required>
+        Acepto los términos y condiciones
+      </label>      
+      <input type="submit" value="Registrarse" />
+      <p>¿Ya tienes una cuenta?<a href="registrar.html">Accede desde aquí</a></p>
+
+    </form>
+  </main>
+</body>
+
+</html>

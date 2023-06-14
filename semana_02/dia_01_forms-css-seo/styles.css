@@ -1,0 +1,17 @@
+main {
+  align-items: center;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+.photo {
+  height: 65px;
+}
+
+.contenedor {
+  display: flex;
+  margin: 0px;
+  gap: 16px;
+}

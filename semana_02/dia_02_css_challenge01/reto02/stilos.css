@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Roboto:wght@400;700&display=swap');
+
+
+body {
+  background-color: hsl(234, 29%, 20%);
+}
+main {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  display: flex;
+  gap: 14px;
+  height: 500px;
+  /*margin-left: 150px;*/
+  align-items: center;
+  max-width: 700px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+.content h1 {
+  font-size: 48px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+.content p {
+  font-size: 16px;
+}
+.content ul {
+  font-style: italic;
+}
