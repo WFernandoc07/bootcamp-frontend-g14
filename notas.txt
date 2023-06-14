@@ -1,0 +1,6 @@
+Usar Github
+Usar HTML, formularios, inputs, tablas, etiquetas semánticas
+Opcionalmente, agregar el repositorio el ejercicio hecho en clase del form registro que dejo en el Adjunto 01.
+Opcionalmente, agregar el repositorio el ejercicio que dejo en el Adjunto 02 en la archivo "semana 02/dia01-formularios-tablas-seo/registrar2.html".
+Agregar el repositorio hecho en clase "Product preview card component"
+Adicionalmente añadan la resolución del siguiente reto siguiente retoLinks to an external site. a su repositorio en la carpeta "semana 02/dia02-reto2".

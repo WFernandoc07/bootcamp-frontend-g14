@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registrar2</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container">
+    <form>
+      <img class="photo" src="./img/avatar-g44bb5f435_1280.png" alt="profile avatar">
+      <hgroup>
+        <h1>Crear una cuenta</h1>
+        <h2>Ingresa la siguiente información para registrarte</h2>
+        <div class="contenedor">
+          <label>
+            Nombres
+            <input type="text" placeholder="Nombres" required>
+          </label>
+          <label>
+            Apellidos
+            <input type="text" placeholder="Apellidos" required>
+          </label>
+        </div>
+        <label>
+          Email
+          <input type="email" placeholder="user@mail.com" required>
+        </label>
+        <label>
+          Teléfono
+          <input type="phone" placeholder="Teléfono" required>
+        </label>
+        <label>
+          Password
+          <input type="password" placeholder="Ingresa password" required minlength="6"/>
+        </label>
+        <label>
+          Confirmar password
+          <input type="password" placeholder="Confirmar password" required minlength="6"/>
+        </label>
+        <input type="submit" value="ingresar"/>
+        <p>¿Ya tienes una cuenta? <a href="registrar.html">Accede desde aquí</a></p>
+      </hgroup>
+    </form>
+  </main>
+</body>
+</html>
