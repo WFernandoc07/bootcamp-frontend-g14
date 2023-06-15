@@ -56,3 +56,14 @@ button {
   justify-content: center;
   gap: 15px;
 }
+
+.mail-address {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.my-email {
+  padding: 10px;
+  border-radius: 5px;
+  color: hsl(231, 7%, 60%);
+}
