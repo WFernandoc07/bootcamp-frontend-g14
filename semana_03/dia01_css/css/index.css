@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+/*Definir variables*/
+:root {
+  /*FONTS*/
+  --font-primary: 'Raleway', sans-serif;
+  --font-secondary: 'Open Sans', sans-serif;
+  --font-size: 14px;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  /*COLORS*/
+  --primary-dark-blue-into: hsl(217, 28%, 15%);
+  --primary-dark-blue-main: hsl(218, 28%, 13%);
+  --primary-dark-blue-footer: hsl(216, 53%, 9%);
+  --primary-dark-blue-testimonial: hsl(219, 30%, 18%);
+
+  --acent-cyan-gradient-1: hsl(176, 68%, 64%);
+  --acent-blue-gradient-1: hsl(198, 60%, 50%);
+  --acent-light-red: hsl(0, 100%, 63%);
+
+  --neutral-white: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--font-size);
+}
+
+body {
+  background-color: var(--primary-dark-blue-into);
+  color: var(--neutral-white);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  width: min(100%-3rem, 144px);
+  margin: 0;
+}
+
+.header {
+  /* border: 1px solid red; */
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 2rem;
+}
+
+.header__nav {
+  list-style: none;
+  /* border: 1px solid blue; */
+  /* width: 100px; */
+  padding: 10px;
+  margin: 10px;
+
+  display: flex;
+  gap: 2rem;
+  /*1rem = 14px, es el tamaño de la fuente actual.*/
+}
+
+.hero {
+  width: min(100% - 3rem, 720px);
+
+  margin: 0 auto;
+  margin-top: 5rem;
+  
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  text-align: center;
+}
+
+.hero__title {
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-bold);
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.hero__text {
+  font-family: var(--font-secondary);
+  padding: 0 7rem;
+  line-height: 1.5;
+}
+
+.hero__button {
+  font-family: var(--font-secondary);
+  font-weight: var(--font-weight-bold);
+  border: none;
+  border-radius: 7rem;
+  padding: 1rem 1.5rem;
+  line-height: 1.5;
+  min-width: 220px;
+  color: var(--neutral-white);
+
+  background: linear-gradient(
+    90deg,
+    var(--acent-cyan-gradient-1) 0%,
+    var(--acent-blue-gradient-1) 35%);
+}
