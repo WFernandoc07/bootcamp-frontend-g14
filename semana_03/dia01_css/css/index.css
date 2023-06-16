@@ -74,7 +74,7 @@ img {
 }
 
 .hero {
-  width: min(100% - 3rem, 720px);
+  /* width: min(100% - 3rem, 720px); */
 
   margin: 0 auto;
   margin-top: 5rem;
@@ -85,9 +85,14 @@ img {
   gap: 2rem;
 
   text-align: center;
+
+  background: var(--primary-dark-blue-into) url(../fylo-dark-theme-landing-page-master/images/bg-curvy-desktop.svg);
+  background-size: contain;
+  padding-top: 3rem;
 }
 
 .hero__title {
+  width: min(100% - 3rem, 720px);
   font-family: var(--font-primary);
   font-weight: var(--font-weight-bold);
   font-size: 2.5rem;
@@ -95,6 +100,7 @@ img {
 }
 
 .hero__text {
+  width: min(100% - 3rem, 720px);
   font-family: var(--font-secondary);
   padding: 0 7rem;
   line-height: 1.5;
