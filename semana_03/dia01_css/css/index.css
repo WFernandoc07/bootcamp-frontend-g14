@@ -124,10 +124,16 @@ img {
 /*-----------SECCION 2*------------*/
 .features {
   display: grid;
-  grid-template-columns: 340px 340px;
+  grid-template-columns: 340px;
   justify-content: center;
   gap: 5rem;
   background-color: var(--primary-dark-blue-main);
+}
+
+@media (min-width: 768px) {
+  .features {
+    grid-template-columns: 340px 340px;
+  } 
 }
 
 .feature {
@@ -150,12 +156,20 @@ img {
 /*--------SECCION 03 --------*/
 .colaboration {
   display: flex;
+  flex-direction: column;
   padding: 0 3rem;
   padding-top: 8rem;
   background-color: var(--primary-dark-blue-main);
   gap: 4rem;
   align-items: center;
   justify-content: center;
+  
+}
+
+@media (min-width: 768px) {
+  .colaboration {
+    flex-direction: row;
+  }
 }
 
 .how_works {
@@ -190,11 +204,18 @@ img {
 
 .testimonials {
   display: flex;
+  flex-direction: column;
   padding: 0 3rem;
   padding-top: 8rem;
   padding-bottom: 10rem;
   background-color: var(--primary-dark-blue-main);
   gap: 3rem;
+}
+
+@media (min-width: 768px) {
+  .testimonials {
+    flex-direction: row;
+  }
 }
 
 .testimonial {
@@ -305,8 +326,17 @@ img {
 
 .access form {
   display: flex;
+  flex-direction: column;
   gap: 2rem;
 }
+
+@media (min-width: 768px) {
+  .access form {
+    flex-direction: row;
+  }
+}
+
+
 
 /*-----------SECCIÓN FOOTER----------------*/
 .footer {
@@ -328,9 +358,15 @@ img {
 
 .footer_info {
   display: grid;
-  grid-template-columns: 2fr 1fr 0.5fr 0.5fr 1fr;
+  /* grid-template-columns: 2fr 1fr 0.5fr 0.5fr 1fr; */
   /* grid-template-columns: repeat(5, 1fr); */
   gap: 5rem;
+}
+
+@media (min-width: 768px) {
+  .footer_info {
+    grid-template-columns: 2fr 1fr 0.5fr 0.5fr 1fr;
+  }
 }
 
 .footer_info__description {
