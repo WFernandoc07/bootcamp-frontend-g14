@@ -1,0 +1,70 @@
+/*---------ACCESS---------------*/
+.access {
+  font-family: var(--font-primary);
+  width: min(100% - 3rem, 53rem);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--primary-dark-blue-testimonial);
+  border-radius: 1px;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.6);
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+}
+
+.access h2 {
+  font-size: 2rem;
+}
+
+.access input[type=text]{
+  border-radius: 1.5rem;
+  border: none;
+  padding: 1rem 2rem;
+  min-width: 100%;
+}
+
+.access input[type=submit] {
+  font-family: var(--font-secondary);
+  font-weight: var(--font-weight-bold);
+  border: none;
+  border-radius: 7rem;
+  padding: 1rem 1.5rem;
+  line-height: 1.5;
+  min-width: 220px;
+  color: var(--neutral-white);
+
+  background: linear-gradient(90deg,
+      var(--acent-cyan-gradient-1) 0%,
+      var(--acent-blue-gradient-1) 35%);
+}
+
+@media (min-width: 768px) {
+  .access {
+    text-align: center;
+  }
+  .access form {
+    width: 100%;
+  }
+
+  .access input[type=text] {
+    min-width: 30rem;
+  }
+}
+
+.access form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .access form {
+    flex-direction: row;
+  }
+}
