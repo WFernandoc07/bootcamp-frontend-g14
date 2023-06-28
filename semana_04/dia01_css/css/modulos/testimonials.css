@@ -1,0 +1,83 @@
+/*-----------TESTIMONIALS---------------*/
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  padding: 0 3rem;
+  padding-top: 8rem;
+  padding-bottom: 20rem;
+  background-color: var(--primary-dark-blue-main);
+  gap: 3rem;
+}
+
+@media (min-width: 768px) {
+  .testimonials {
+    flex-direction: row;
+  }
+}
+
+.testimonial {
+  position: relative;
+  background-color: var(--primary-dark-blue-testimonial);
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+
+  /* padding-top: 2rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem; */
+
+  /*padding: 2rem 1.5rem 1.5rem*/
+  /*top L-R bottom*/
+
+  font-family: var(--font-secondary);
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  z-index: 10;
+}
+
+.testimonial--wrapperquote {
+  position: relative;
+}
+
+.testimonial--wrapperquote .testimonial__quote{
+  position: absolute;
+  top: -35px;
+  left: -10px;
+}
+
+
+/* .testimonial--quote::after {
+  content: 'dasdasdadsad';
+  background-image: url(../fylo-dark-theme-landing-page-master/images/bg-quotes.png) no-repeat top left;
+  position: absolute;
+  top: -20;
+  left: -10;
+  width: 80px;
+  height: 50px;
+  z-index: 50;
+} */
+
+.testimonial p {
+  /* background-color: var(--primary-dark-blue-main); */
+  width: 21rem;
+}
+
+@media (min-width: 768px) {
+  .testimonials {
+    flex-direction: row;
+  }
+}
+
+.testimonial img {
+  border-radius: 50%;
+}
+
+.testimonial__profile {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: .5rem;
+}
