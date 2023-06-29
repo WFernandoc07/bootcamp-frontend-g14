@@ -159,7 +159,7 @@ a {
   background-image: url(../images/bg-curve-desktop.svg);
   gap: .5rem;
   align-items: center;
-  justify-content: center;  
+  justify-content: space-between;  
 }
 
 .how_works__title {

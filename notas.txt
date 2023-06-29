@@ -2,3 +2,12 @@
 768px --> pantallas pequeñas (celulares y tablets)
 992px --> pantallas medianas (desktop)
 1200px --> pantallas grandes (desktop y TVs)
+
+-----------------
+SAS
+  EL Siguiente comando nos ayuda a convertir de SCSS a CSS
+  - sass sass/styles.scss css/styles.css
+
+  Watch stylesheets and recompile when they change
+    -w, --watch   
+
