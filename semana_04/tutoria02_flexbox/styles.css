@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.flex-container {
+  width: 600px;
+  height: 600px;
+  color: rgb(24, 15, 159);
+  background-color: beige;
+
+  display: flex;
+  flex-direction: row; /*Eje principal -- horizontal*/
+  /*flex-direction: column
+    flex-direction: column-reverse
+    flex-direction: row-reverse*/
+  justify-content: center;/*center end start*/
+  align-items: center; /*Trabaja con el eje secundario*/
+  }
+
+.flex-item {
+  background-color: lightskyblue;
+  color: rgb(180, 66, 17);
+  font-size: 50px  
+}
+
+.flex-item:nth-child(odd){/*odd - even*/
+  background-color: aquamarine;
+  /*align-self: flex-end;*/
+}
+
+.item2 {
+  background-color: blue;
+}
