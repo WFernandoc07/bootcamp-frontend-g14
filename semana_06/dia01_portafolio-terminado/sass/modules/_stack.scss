@@ -9,10 +9,13 @@
   }
 
   &__box {
-    border-radius: .5rem; // =8px
-    background-color: $primary-dark-blue2;
+    display: flex;
+    justify-content: center;
     align-items: center;
 
+    border-radius: .5rem; // =8px
+    background-color: #393646;;
+    
     width: 7rem;
     height: 7rem;
   }

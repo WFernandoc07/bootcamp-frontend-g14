@@ -5,9 +5,10 @@
   gap: 2.5rem;
   padding: 4rem;
 
-  &__bg {
-    background-color: $primary-dark-blue2 url(../../images/);
-  }
+  &--bg {
+    background: $primary-color-blue2 url(../../images/bg.svg) no-repeat bottom;
+    background-size: contain;
+  }  
 
   &__gretting {
     font-size: 2rem;
@@ -16,7 +17,7 @@
   }
 
   &__gretting span {
-    color: $primary-dark-gold;
+    color: $primary-color-gold;
     text-decoration: underline;
   }
 
@@ -32,6 +33,6 @@
   }
 
   &__photo {
-    border-radius: 50%;
+    border-radius: 100%;
   }
 }

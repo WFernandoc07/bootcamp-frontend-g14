@@ -1,20 +1,20 @@
 .header {
-  border: 1px solid red;
   display: flex;
   justify-content: space-between;
   align-items: center;
   
   //Nestin
-  &__logo {
-    color: $primary-dark-gold;
+  &__logo { //.header__logo
+    color: $primary-color-gold;
     font-size: 2rem; // 1rem = 16px
     font-weight: $font-weight-bold;
   }
 
   &__menu ul {
     list-style: none;
+
     display: flex;
-    gap: 1.5rem;
+    gap: 1.5rem; //1.5rem * 16px = 24px
 
     padding: 10px;
     margin: 10px;
@@ -30,8 +30,8 @@
 
   &__menu--active,
   &__menu a:hover {
-    color: $primary-dark-gold;
-    border-bottom: 3px solid $primary-dark-gold;
+    color: $primary-color-gold;
+    border-bottom: 3px solid $primary-color-gold;
   }
 
   &__actions {
@@ -56,7 +56,7 @@
   }
 
   &__action--dark-selected {
-    background-color: $primary-dark-blue1;
+    background-color: $primary-color-blue1;
     border: none;
     border-radius: 100%;
   }
