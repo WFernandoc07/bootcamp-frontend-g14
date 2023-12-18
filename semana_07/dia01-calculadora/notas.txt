@@ -1,0 +1,2 @@
+color 1: 363F4F
+color 2: 04B0A5
