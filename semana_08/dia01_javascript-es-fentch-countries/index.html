@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listado de paises con Javascript y el API fetch</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="app__header wrapper">
+    <h1>Listado de paises con Javascript y el API fetch</h1>    
+  </header>
+
+  <section class="app__filters wrapper">
+    <input type="app_search" placeholder="Buscar por nombre de país o ...">
+    
+    <select class="app__filter">
+      <option value="">Filtrar por región</option>
+      <option value="africa">África</option>
+      <option value="americas">Américas</option>
+      <option value="asia">Asia</option>
+      <option value="europa">Europa</option>
+      <option value="oceania">Oceanía</option>
+    </select>
+
+    
+  </section>
+  <main class="app__list wrapper"></main>
+
+  <footer class="app__footer wrapper">
+    By William Castrejón - julio 2023
+  </footer>
+  
+
+  <script src="./modules/main.js" type="module"></script>
+</body>
+</html>

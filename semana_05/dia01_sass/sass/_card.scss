@@ -1,9 +1,9 @@
-
-
 .card {
   background-color: $card-bg;
   border: 1px solid $card-border-color;
   border-radius: $card-border-radius;
+  @include default-border;
+  @include custom-border(4px, red, false);
 
   &--header {
     padding: 1rem 1.5rem;

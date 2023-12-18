@@ -52,14 +52,15 @@ img {
 
 .header {
   font-family: var(--font-primary);
-  /* border: 1px solid red; */
+  border: 1px solid red;
   margin: 0 auto;
 
   display: flex;
   justify-content: space-between;
+  /* justify-content: space-around; */
 
   margin-top: 2rem;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .header__nav {
