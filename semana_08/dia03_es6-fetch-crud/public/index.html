@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD de Películas con json-server</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+  <style>
+    .fs-small {
+      font-size: .8rem;
+    }
+    .flex {
+      display: flex;
+    }
+    .gap-0\.5 {
+      gap: .5rem;
+    }
+  </style>
+</head>
+<body>
+  <nav class="container-fluid">
+    <ul>
+      <li>
+        <strong>CRUD de Películas con json-server</strong>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="grid">
+      <div>
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Image</th>
+              <th>Name</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody class="movies__list"></tbody>
+        </table>
+      </div>
+      <div>
+        <form id="moviesForm">
+          <h2>New movie</h2>
+
+          <input type="hidden" name="id" />
+          <input type="text" name="name" placeholder="Name" required />
+          <input type="text" name="image" placeholder="URL image" required />
+          <input type="date" name="release" placeholder="Release" required />
+          <select name="genre" required>
+            <option value="">Select a genre...</option>
+            <option value="1">Comedy</option>
+            <option value="2">Action</option>
+            <option value="3">Animation</option>
+            <option value="4">Adventure</option>
+          </select>
+          <textarea name="resumen" placeholder="Resume"></textarea>
+
+          <input type="submit" value="Save" />
+          </textarea>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer class="container-fluid">
+    By William Castrejón - diciembre 2023
+  </footer>
+
+  <script src="./main.js" type="module"></script>
+</body>
+</html>
